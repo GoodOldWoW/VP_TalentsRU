@@ -2,6 +2,14 @@
 
 This is a test version of the addon.
 
+When updating the server, the translation will NOT break:
+- only the numerical values of the talent will change,
+- talent position will change.
+
+When the server is updated, the translation of the talent will break:
+- the name of this talent will change,
+- the text of the description of this talent will change.
+
 ---
 
 Guide:
