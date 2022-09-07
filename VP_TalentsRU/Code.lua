@@ -6,7 +6,7 @@ local DB={
 	}},
 	["Arcane Focus"]={t="Чародейский фокус",d={
 		{k="^Reduces the chance that the opponent can resist your Arcane spells by 1% and gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles.$",
-		v=""Снижение на 1% вероятности того, что противник сможет противостоять заклинаниям тайной магии. С вероятностью 20% поддержание "Чародейских стрел" не прерывается при получении урона."},
+		v="Снижение на 1% вероятности того, что противник сможет противостоять заклинаниям тайной магии. С вероятностью 20% поддержание "Чародейских стрел" не прерывается при получении урона."},
 	}},
 	["Elemental Precision"]={t="Элементальная точность",d={
 		{k="^Reduces the chance that the opponent can resist your Frost and Fire spells by 1%.$",
