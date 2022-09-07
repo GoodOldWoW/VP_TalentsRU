@@ -1,7 +1,12 @@
 # VP_TalentsRU
 
-This is a test version of the addon.<br>
-Talents available:
+This is a test version of the addon.
+
+Guide:
+1. Press and hold the <kbd>Alt</kbd> key
+2. Hover your mouse over the talent icon
+
+Talent translation is available for the following classes:
 - Mage
 
 ---
