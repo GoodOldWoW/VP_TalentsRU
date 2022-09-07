@@ -3,20 +3,20 @@
 local DB={
 ["Mage"]={
 	["Wand Specialization"]={t="Специализация на жезлах",d={
-		{k="^Increases your damage with Wands by 25%.$",
-		v='Увеличивает урон жезлами на 25%.'},
+		{k="^Increases your damage with Wands by (.+).$",
+		v='Увеличивает урон жезлами на %s.'},
 	}},
 	["Arcane Focus"]={t="Чародейский фокус",d={
-		{k="^Reduces the chance that the opponent can resist your Arcane spells by 1% and gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles.$",
-		v='Снижение на 1% вероятности того, что противник сможет противостоять заклинаниям тайной магии. С вероятностью 20% поддержание "Чародейских стрел" не прерывается при получении урона.'},
+		{k="^Reduces the chance that the opponent can resist your Arcane spells by (.+) and gives you a (.+) chance to avoid interruption caused by damage while channeling Arcane Missiles.$",
+		v='Снижение на %s вероятности того, что противник сможет противостоять заклинаниям тайной магии. С вероятностью %s поддержание "Чародейских стрел" не прерывается при получении урона.'},
 	}},
 	["Elemental Precision"]={t="Элементальная точность",d={
-		{k="^Reduces the chance that the opponent can resist your Frost and Fire spells by 1%.$",
-		v='Снижает шанс сопротивления противника заклинаниям льда и огня на 1%.'},
+		{k="^Reduces the chance that the opponent can resist your Frost and Fire spells by (.+).$",
+		v='Снижает шанс сопротивления противника заклинаниям льда и огня на %s.'},
 	}},
 	["Arcane Resilience"]={t="Мистическая стойкость",d={
-		{k="^Increases your armor by an amount equal to 50% of your Intellect and increases the effects of your Mage Armor by 10%.$",
-		v='Увеличивает броню на величину, равную 50% интеллекта, и усиливает эффекты "Магической брони" на 10%'},
+		{k="^Increases your armor by an amount equal to (.+) of your Intellect and increases the effects of your Mage Armor by (.+).$",
+		v='Увеличивает броню на величину, равную %s интеллекта, и усиливает эффекты "Магической брони" на %s.'},
 	}},
 	["Practical Defensive Magic"]={t="Практическая защитная магия",d={
 		{k="^Increases the effect of your Amplify Magic and Dampen Magic spells by 25%, decreases the mana lost per point of damage taken when Mana Shield is active by 25%, and gives your Polymorph a 45% chance to not lose casting time when you take damage.$",
