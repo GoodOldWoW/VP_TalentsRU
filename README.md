@@ -14,4 +14,5 @@ Talent translation is available for the following classes:
 ### Installation:
 1. [Download](https://github.com/GoodOldWoW/VP_TalentsRU/archive/refs/heads/main.zip) the current version of the source code
 2. Open folder in the archive
-3. Copy sub folder "VP_TalentsRU" to addons folder "WOW\Interface\AddOns\"
+3. Copy sub folder "VP_TalentsRU" to addons folder "WOW\\Interface\\AddOns\\"
+4. Copy sub folder "Fonts" to game folder "WOW\\" (**if you have a folder "WOW\\Fonts\\" then make a backup copy before copying**)
