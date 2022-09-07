@@ -2,9 +2,15 @@
 
 This is a test version of the addon.
 
+---
+
 Guide:
 1. Press and hold the `Alt` key
 2. Hover your mouse over the talent icon
+
+*If mouse was hovered over the talent icon and after that you pressed the `Alt` key - nothing will change.*
+
+---
 
 Talent translation is available for the following classes:
 - Mage
