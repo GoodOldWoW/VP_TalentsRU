@@ -326,7 +326,7 @@ function GameTooltip.SetTalent(self, tabIndex, talentIndex)
 						for j = 1, table.getn(Talent.d) do
 							res = {string.find(_G['TempTooltipTextLeft' .. i]:GetText(), Talent.d[j].k)}
 							if res[1] then
-								GameTooltip:AddLine(string.format(Talent.d[j].v, (res[3] or ''), (res[4] or ''), (res[5] or '')), r, g, b, 1)
+								GameTooltip:AddLine(string.format(Talent.d[j].v, (res[3] or ''), (res[4] or ''), (res[5] or ''), (res[6] or '')), r, g, b, 1)
 								break
 							end
 						end
@@ -338,7 +338,8 @@ function GameTooltip.SetTalent(self, tabIndex, talentIndex)
 						-- TODO
 						GameTooltip:AddLine(_G['TempTooltipTextLeft'..i]:GetText(), r, g, b)
 					else
-						DEFAULT_CHAT_FRAME:AddMessage(r .. ' - ' .. g .. ' - ' .. b)
+						--DEFAULT_CHAT_FRAME:AddMessage(r .. ' - ' .. g .. ' - ' .. b)
+						GameTooltip:AddLine(_G['TempTooltipTextLeft'..i]:GetText(), r, g, b)
 					end
 
 
