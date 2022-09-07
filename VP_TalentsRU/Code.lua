@@ -282,8 +282,6 @@ CreateFrame('GAMETOOLTIP', 'TempTooltip', nil, 'GameTooltipTemplate')
 local HookSetTalent = GameTooltip.SetTalent
 function GameTooltip.SetTalent(self, tabIndex, talentIndex)
 	if IsAltKeyDown() then
-		HookSetTalent(self, tabIndex, talentIndex)
-	else
 		TempTooltip:SetOwner(UIParent, 'ANCHOR_NONE')
 		TempTooltip:SetTalent(tabIndex, talentIndex)
 		TempTooltip:Show()
@@ -354,6 +352,8 @@ function GameTooltip.SetTalent(self, tabIndex, talentIndex)
 		end
 
 		TempTooltip:Hide()
+		HookSetTalent(self, tabIndex, talentIndex)
+	else
 		HookSetTalent(self, tabIndex, talentIndex)
 	end
 end
