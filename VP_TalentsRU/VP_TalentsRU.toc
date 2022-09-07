@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: VP_TalentsRU |cFFFFFFFFv0.1|r
+## Notes: Designed for Vanilla Plus server.
+## Author: 
+## Version: 0.1
+
+Code.lua
